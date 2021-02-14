@@ -1,2 +1,16 @@
 # count-your-vowels
-Just write the sentence and the program will count your vowels
+s = (input("Sentence:"))
+print(s)
+print("Vowels:")
+a = (int(s.count("a")))
+print("a=", int(a))
+e = (int(s.count("e")))
+print("e=", int(e))
+i = (int(s.count("i")))
+print("i=", int(i))
+o = (int(s.count("o")))
+print("o=", int(o))
+u = (int(s.count("u")))
+print("u=", int(u))
+print("Total number of vowels:")
+print(int(a+e+i+o+u))
